@@ -1,0 +1,20 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+#btn{
+    padding:5px;
+    background-color:black;
+    color:white;
+    border-radius:9px;
+    border-color: none;
+    width:100px;
+    outline:none;
+}
+#btn:hover{
+    cursor:pointer;
+}
+#tabName
+{
+    text-align:center;
+}
