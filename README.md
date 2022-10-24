@@ -14,3 +14,4 @@
 ![image](https://user-images.githubusercontent.com/75198704/196716751-20a98e16-7ff9-47f0-95be-a36b2a88b46e.png)
 
 ### This application uses google tabs api to fetch the current tab.
+

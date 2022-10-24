@@ -5,11 +5,24 @@
     "manifest_version": 3,
     "author": "Rishitha",
     "action":{
-        "default_popup": "index.html",
+        "default_popup":"index.html",
         "default_title": "Tab"
     },
     "permissions":[
-        "tabs"
-    ]
+        "tabs",
+        "activeTab"
+    ],
+    "content_scripts":[
+        {
+            "matches":[
+                "<all_urls>"
+            ],
+            "js":["contentScript.js"],
+            "run_at":"document_end"
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>"
+      ]
 
 }
